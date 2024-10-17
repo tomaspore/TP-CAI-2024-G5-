@@ -36,3 +36,16 @@ C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Neg
 >>>>>>> Stashed changes
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Negocio.pdb
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Persistencia.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Datos.pdb
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Persistencia.pdb
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Negocio\obj\Debug\Negocio.pdb

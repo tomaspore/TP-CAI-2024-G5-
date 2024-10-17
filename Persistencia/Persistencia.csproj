@@ -45,9 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LoginDB.cs" />
-    <Compile Include="DBHelper.cs" />
+    <Compile Include="Utils\DBHelper.cs" />
     <Compile Include="LoginWS.cs" />
-    <Compile Include="WebHelper.cs" />
+    <Compile Include="Utils\WebHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

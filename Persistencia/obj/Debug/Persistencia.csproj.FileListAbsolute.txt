@@ -30,3 +30,17 @@ C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Per
 >>>>>>> Stashed changes
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Newtonsoft.Json.xml
+<<<<<<< HEAD
+=======
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Persistencia.pdb
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Datos.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Datos.pdb
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.csproj.AssemblyReference.cache
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persiste.7F7D6998.Up2Date
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.dll
+C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\Persistencia\obj\Debug\Persistencia.pdb
+>>>>>>> origin/TomasAlberio
