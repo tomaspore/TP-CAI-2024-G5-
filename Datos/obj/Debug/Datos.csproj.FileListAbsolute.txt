@@ -19,3 +19,9 @@ C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Dat
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.dll
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.pdb
 >>>>>>> Stashed changes
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\bin\Debug\Datos.dll
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\bin\Debug\Datos.pdb
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.dll
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\Datos\obj\Debug\Datos.pdb

@@ -9,18 +9,21 @@ namespace Persistencia
 {
     public class LoginDB
     {
+        // Guardar el intento inicial en la base de datos (cuando es el primer intento fallido)
         public void guardarIntento(String username)
         {
             DBHelper dbHelper = new DBHelper("intentos_login");
             dbHelper.Insertar(username, "1");
         }
 
-        public void actualizarIntento(String key, String newValue)
+        // Actualizar la cantidad de intentos para el usuario
+        public void actualizarIntento(String username, String newValue)
         {
             DBHelper dbHelper = new DBHelper("intentos_login");
-            dbHelper.Modificar(key, newValue);
+            dbHelper.Modificar(username, newValue);
         }
 
+        // Obtener la cantidad de intentos fallidos de login para un usuario
         public int obtenerIntentos(String username)
         {
             DBHelper dbHelper = new DBHelper("intentos_login");
@@ -28,12 +31,15 @@ namespace Persistencia
 
             if (valor == null)
             {
+                // Si no hay ningún intento registrado, retornamos 0
                 valor = "0";
+                guardarIntento(username); // Lo registramos para próximas fallas
             }
 
             return int.Parse(valor);
-
         }
+    
+
 
         public String obtenerArray(String key)
         {

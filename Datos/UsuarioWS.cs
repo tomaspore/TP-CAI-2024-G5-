@@ -13,16 +13,16 @@ namespace Datos
             String _apellido;
             int _dni;
             String _nombreUsuario;
-            int _perfil;
+            int _host;
 
-            public UsuarioWS(Guid id, string nombre, string apellido, int dni, string nombreUsuario, int perfil)
+            public UsuarioWS(Guid id, string nombre, string apellido, int dni, string nombreUsuario, int host)
             {
                 Id = id;
                 Nombre = nombre;
                 Apellido = apellido;
                 Dni = dni;
                 NombreUsuario = nombreUsuario;
-                Perfil = perfil;
+                Host = host;
             }
 
             public Guid Id { get => _id; set => _id = value; }
@@ -30,7 +30,7 @@ namespace Datos
             public string Apellido { get => _apellido; set => _apellido = value; }
             public int Dni { get => _dni; set => _dni = value; }
             public string NombreUsuario { get => _nombreUsuario; set => _nombreUsuario = value; }
-            public int Perfil { get => _perfil; set => _perfil = value; }
+            public int Host { get => _host; set => _host = value; }
             }
     }
 

@@ -14,26 +14,24 @@ namespace TemplateTPIntegrador.Forms
 {
     public partial class FrmRegistroUsuario : Form
     {
-        private static int UserId; // metodo necesario para poder autoincrementar el Id por cada registro
+        private static int UserId = 1; // Inicializa el Id una sola vez
 
         public FrmRegistroUsuario()
         {
             InitializeComponent();
-            LlenarcmbHost(); // para poner los posibles valores a elegir en cmbHost
-            AutoincrementarIDUsuario();
+            LlenarcmbHost(); // Para poner los posibles valores a elegir en cmbHost
+            MostrarIDUsuarioActual();
         }
 
-        private void AutoincrementarIDUsuario()
+        private void MostrarIDUsuarioActual()
         {
-            UserId++;
-            txtIdUsuario.Text = UserId.ToString();
-            txtIdUsuario.ReadOnly = true; // se logra que no se edite de forma manual el Id de usuario.
-
+            txtIdUsuario.Text = UserId.ToString(); // Muestra el Id actual
+            txtIdUsuario.ReadOnly = true; // Hace que no se pueda editar el campo manualmente
         }
 
         private void LlenarcmbHost()
         {
-            // Se llena el comboBox Host con sus diferentes opciones:
+            // Se llena el comboBox Host con sus diferentes opciones
             cmbHost.Items.Add("Administrador (3)");
             cmbHost.Items.Add("Supervisor (2)");
             cmbHost.Items.Add("Vendedor (1)");
@@ -41,76 +39,60 @@ namespace TemplateTPIntegrador.Forms
 
         private void btnRegistrarUsuario_Click(object sender, EventArgs e)
         {
-            string nombre = "";
-            string apellido = "";
-            string direccion = "";
-            string telefono = "";
-            string email = "";
-            string usuario = "";
-            string dni = "";
-            string contraseña = "";
-            string host = "";
+            // Obtiene los valores de los campos del formulario
+            string nombre = txtNombre.Text;
+            string apellido = txtApellido.Text;
+            string direccion = txtDireccion.Text;
+            string telefono = txtTelefono.Text;
+            string email = txtEmail.Text;
+            string usuario = txtUsuario.Text;
+            string dni = txtDNI.Text;
+            string contraseña = txtContraseña.Text;
+            string host = cmbHost.SelectedItem?.ToString();
 
-            // Se toman los valores que se van ingresando en el formulario de registro en los TextBox
-            nombre = txtNombre.Text;
-            apellido = txtApellido.Text;
-            direccion = txtDireccion.Text;
-            telefono = txtTelefono.Text;
-            email = txtEmail.Text;
-            usuario = txtUsuario.Text;
-            dni = txtDNI.Text;
-            contraseña = txtContraseña.Text;
-
-            // Se toma el valor que se ingresa en el comboBox
-            host = cmbHost.SelectedItem?.ToString();
-
-
-            // Llamamos a Validaciones de negocio
+            // Validaciones de negocio
             ValidacionesNegocio validacionesRegistro = new ValidacionesNegocio();
-            
-            // Creamos un campo tipo string para ver si devuelve error las validaciones de negocio
             string error;
 
-            if(!validacionesRegistro.ValidarNombreRegistroUsuario(usuario, nombre, apellido, out error))
-            {
-                MessageBox.Show(error);
-                return; // con el return nos aseguramos que si devuelve false, nos siga pidiendo que ingresemos correctamente lo que pide hasta que la validacion se cumpla correctamente.
-            }
-
-            if(!validacionesRegistro.ValidacionContraseña(contraseña, out error))
+            // Validaciones de nombre de usuario y contraseña
+            if (!validacionesRegistro.ValidarNombreRegistroUsuario(usuario, nombre, apellido, out error))
             {
                 MessageBox.Show(error);
                 return;
             }
 
+            if (!validacionesRegistro.ValidacionContraseña(contraseña, out error))
+            {
+                MessageBox.Show(error);
+                return;
+            }
 
-
-
+            // Validar campos vacíos
             ValidacionesUtils validacionUntilRegistro = new ValidacionesUtils();
-            
-            if(validacionUntilRegistro.ValidarVacioRegistroUsuario(nombre, apellido, direccion, telefono, email, usuario, dni, contraseña, host))
+            if (validacionUntilRegistro.ValidarVacioRegistroUsuario(nombre, apellido, direccion, telefono, email, usuario, dni, contraseña, host))
             {
-                MessageBox.Show("Le esta faltando ingresar datos.");
-            }
-            else
-            {
-                // Usuario registrado con exito
-                MessageBox.Show("Usuario se ha registrado con exito.");
-
-                // Volver al formulario de FrmMenuAdmin
-                FrmMenuAdmin menuadmin = new FrmMenuAdmin();
-
-                // Abrir el menu FrmMenuAdmin
-                menuadmin.Show();
-
-                // Cerrar el formulario de registro de usuario.
-                this.Hide();
+                MessageBox.Show("Le está faltando ingresar datos.");
+                return;
             }
 
-            
+            // Si las validaciones son exitosas, registrar al usuario
+            MessageBox.Show("Usuario se ha registrado con éxito.");
 
-            
+            // Incrementar el ID después del registro exitoso
+            UserId++;
 
+            // Volver al formulario de FrmMenuAdmin
+            FrmMenuAdmin menuadmin = new FrmMenuAdmin();
+            menuadmin.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //VOLVER AL MENU INICIAL
+            this.Close();  // Cierra el formulario actual (Registrar Usuario)
+            FrmMenuAdmin menu = new FrmMenuAdmin(); // Crea una instancia del menú administrador
+            menu.Show();  // Muestra el formulario del menú administrador
         }
     }
 }

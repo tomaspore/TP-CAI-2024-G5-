@@ -63,7 +63,6 @@ C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\Tem
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.pdb
 C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.xml
 <<<<<<< HEAD
-=======
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe.config
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.pdb
@@ -88,3 +87,54 @@ C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.exe
 C:\Users\tomas_av2xxcp\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.pdb
 >>>>>>> origin/TomasAlberio
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe.config
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.pdb
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Datos.dll
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Negocio.dll
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.dll
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.dll
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Datos.pdb
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Negocio.pdb
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.pdb
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.xml
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmMenuAdmin.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuSupervisor.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuVendedor.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmRegistroUsuario.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmLogin.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Properties.Resources.resources
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presenta.BC77CD05.Up2Date
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.exe
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.pdb
+C:\Users\talberio\OneDrive - Avaya\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmCambioContraseña.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe.config
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.exe
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\TemplateTPIntegrador.pdb
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Datos.dll
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Negocio.dll
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.dll
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Datos.pdb
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Negocio.pdb
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Persistencia.pdb
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmCambioContraseña.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmConfirmacionCerrarSesion.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmMenuAdmin.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuSupervisor.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmMenuVendedor.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmRegistroUsuario.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.FrmLogin.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Properties.Resources.resources
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\Presenta.BC77CD05.Up2Date
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.exe
+C:\Users\Ludmila\Documents\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.pdb
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmCambioContraseña.resources
+C:\Users\Nerina\OneDrive - Enta Consulting\Documentos\GitHub\TP-CAI-2024-G5-\TemplateTPIntegrador\obj\Debug\TemplateTPIntegrador.Forms.FrmConfirmacionCerrarSesion.resources

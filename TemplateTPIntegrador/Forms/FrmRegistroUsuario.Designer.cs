@@ -49,12 +49,13 @@
             this.txtContraseña = new System.Windows.Forms.TextBox();
             this.cmbHost = new System.Windows.Forms.ComboBox();
             this.btnRegistrarUsuario = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblNumeroRegistro
             // 
             this.lblNumeroRegistro.AutoSize = true;
-            this.lblNumeroRegistro.Location = new System.Drawing.Point(50, 40);
+            this.lblNumeroRegistro.Location = new System.Drawing.Point(53, 40);
             this.lblNumeroRegistro.Name = "lblNumeroRegistro";
             this.lblNumeroRegistro.Size = new System.Drawing.Size(55, 13);
             this.lblNumeroRegistro.TabIndex = 0;
@@ -63,7 +64,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(50, 82);
+            this.lblNombre.Location = new System.Drawing.Point(51, 78);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(44, 13);
             this.lblNombre.TabIndex = 1;
@@ -72,7 +73,7 @@
             // lblApellido
             // 
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Location = new System.Drawing.Point(50, 118);
+            this.lblApellido.Location = new System.Drawing.Point(51, 114);
             this.lblApellido.Name = "lblApellido";
             this.lblApellido.Size = new System.Drawing.Size(44, 13);
             this.lblApellido.TabIndex = 2;
@@ -81,7 +82,7 @@
             // lblDireccion
             // 
             this.lblDireccion.AutoSize = true;
-            this.lblDireccion.Location = new System.Drawing.Point(50, 160);
+            this.lblDireccion.Location = new System.Drawing.Point(51, 153);
             this.lblDireccion.Name = "lblDireccion";
             this.lblDireccion.Size = new System.Drawing.Size(52, 13);
             this.lblDireccion.TabIndex = 3;
@@ -90,7 +91,7 @@
             // lblTelefono
             // 
             this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Location = new System.Drawing.Point(50, 201);
+            this.lblTelefono.Location = new System.Drawing.Point(51, 191);
             this.lblTelefono.Name = "lblTelefono";
             this.lblTelefono.Size = new System.Drawing.Size(49, 13);
             this.lblTelefono.TabIndex = 4;
@@ -99,7 +100,7 @@
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(50, 241);
+            this.lblEmail.Location = new System.Drawing.Point(50, 234);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(32, 13);
             this.lblEmail.TabIndex = 5;
@@ -117,7 +118,7 @@
             // lblHost
             // 
             this.lblHost.AutoSize = true;
-            this.lblHost.Location = new System.Drawing.Point(50, 381);
+            this.lblHost.Location = new System.Drawing.Point(47, 376);
             this.lblHost.Name = "lblHost";
             this.lblHost.Size = new System.Drawing.Size(29, 13);
             this.lblHost.TabIndex = 7;
@@ -126,7 +127,7 @@
             // lblDNI
             // 
             this.lblDNI.AutoSize = true;
-            this.lblDNI.Location = new System.Drawing.Point(50, 341);
+            this.lblDNI.Location = new System.Drawing.Point(47, 341);
             this.lblDNI.Name = "lblDNI";
             this.lblDNI.Size = new System.Drawing.Size(62, 13);
             this.lblDNI.TabIndex = 8;
@@ -155,21 +156,21 @@
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(124, 153);
+            this.txtDireccion.Location = new System.Drawing.Point(124, 150);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(100, 20);
             this.txtDireccion.TabIndex = 12;
             // 
             // txtTelefono
             // 
-            this.txtTelefono.Location = new System.Drawing.Point(124, 194);
+            this.txtTelefono.Location = new System.Drawing.Point(124, 191);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(100, 20);
             this.txtTelefono.TabIndex = 13;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(124, 234);
+            this.txtEmail.Location = new System.Drawing.Point(124, 231);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(100, 20);
             this.txtEmail.TabIndex = 14;
@@ -191,7 +192,7 @@
             // lblContraseña
             // 
             this.lblContraseña.AutoSize = true;
-            this.lblContraseña.Location = new System.Drawing.Point(51, 302);
+            this.lblContraseña.Location = new System.Drawing.Point(47, 306);
             this.lblContraseña.Name = "lblContraseña";
             this.lblContraseña.Size = new System.Drawing.Size(61, 13);
             this.lblContraseña.TabIndex = 18;
@@ -199,7 +200,7 @@
             // 
             // txtContraseña
             // 
-            this.txtContraseña.Location = new System.Drawing.Point(124, 299);
+            this.txtContraseña.Location = new System.Drawing.Point(124, 306);
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(100, 20);
             this.txtContraseña.TabIndex = 19;
@@ -209,12 +210,12 @@
             this.cmbHost.FormattingEnabled = true;
             this.cmbHost.Location = new System.Drawing.Point(124, 373);
             this.cmbHost.Name = "cmbHost";
-            this.cmbHost.Size = new System.Drawing.Size(121, 21);
+            this.cmbHost.Size = new System.Drawing.Size(100, 21);
             this.cmbHost.TabIndex = 20;
             // 
             // btnRegistrarUsuario
             // 
-            this.btnRegistrarUsuario.Location = new System.Drawing.Point(124, 418);
+            this.btnRegistrarUsuario.Location = new System.Drawing.Point(68, 417);
             this.btnRegistrarUsuario.Name = "btnRegistrarUsuario";
             this.btnRegistrarUsuario.Size = new System.Drawing.Size(121, 23);
             this.btnRegistrarUsuario.TabIndex = 21;
@@ -222,11 +223,22 @@
             this.btnRegistrarUsuario.UseVisualStyleBackColor = true;
             this.btnRegistrarUsuario.Click += new System.EventHandler(this.btnRegistrarUsuario_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(77, 461);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 23);
+            this.button1.TabIndex = 22;
+            this.button1.Text = "Volver al Menú";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FrmRegistroUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(429, 496);
+            this.ClientSize = new System.Drawing.Size(286, 496);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnRegistrarUsuario);
             this.Controls.Add(this.cmbHost);
             this.Controls.Add(this.txtContraseña);
@@ -278,5 +290,6 @@
         private System.Windows.Forms.TextBox txtContraseña;
         private System.Windows.Forms.ComboBox cmbHost;
         private System.Windows.Forms.Button btnRegistrarUsuario;
+        private System.Windows.Forms.Button button1;
     }
 }
