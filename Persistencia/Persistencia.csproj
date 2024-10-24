@@ -44,10 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LoginDB.cs" />
+    <Compile Include="Login\LoginDB.cs" />
     <Compile Include="ModificacionWS.cs" />
+    <Compile Include="Producto\ProductosWS.cs" />
     <Compile Include="Utils\DBHelper.cs" />
-    <Compile Include="LoginWS.cs" />
+    <Compile Include="Login\LoginWS.cs" />
     <Compile Include="Utils\WebHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

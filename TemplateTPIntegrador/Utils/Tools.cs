@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace TemplateTPIntegrador
 {
-    public class ValidacionesUtils
+    public class Tools
     {
 
         public bool ValidarVacio(string texto1, string texto2)

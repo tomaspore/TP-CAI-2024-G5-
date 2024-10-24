@@ -10,34 +10,15 @@ namespace Negocio
 {
     public class LoginNegocio
     {
-        private LoginDB loginDB = new LoginDB();
-
-        // Este método bloquea al usuario modificando su estado en la base de datos
-        public void bloquearUsuario(string usuario)
-        {
-            DBHelper dbHelper = new DBHelper("estado_usuarios");
-            dbHelper.Modificar(usuario, "bloqueado");
-        }
-
-        // Este método verifica si el usuario está bloqueado en la base de datos
-        public bool estaBloqueado(string usuario)
-        {
-            DBHelper dbHelper = new DBHelper("estado_usuarios");
-            string estado = dbHelper.Buscar(usuario);
-            return estado == "bloqueado";
-        }
+        private int intentos = 0; //Manejamos los intentos desde acá
         public String login(string usuario, string password)
         {
             String perfilLogin = "";
             string nombre = "";
 
-            LoginWS loginWS = new LoginWS();
 
-            // Verificar si el usuario está bloqueado
-            if (estaBloqueado(usuario))
-            {
-                return "Usuario bloqueado. Contacte con el Administrador.";
-            }
+            LoginDB loginDB = new LoginDB();
+            LoginWS loginWS = new LoginWS();
 
             // Obtener la lista de usuarios activos desde el servicio
             List<UsuarioWS> usuariosActivos = loginWS.buscarDatosUsuario();
@@ -48,42 +29,27 @@ namespace Negocio
             if (usuarioActivo == null)
             {
                 // El usuario no está en la lista, lo marcamos como inactivo
-                return "Usuario no activo";
+                return "Usuario no activo"; // Retornar este mensaje si no encontramos el usuario
             }
 
-            // Obtener los intentos de login desde la base de datos
-            int intentos = loginDB.obtenerIntentos(usuario);
-
-            // Si ya excedió los 3 intentos, retornamos que la cuenta está bloqueada
-            if (intentos >= 3)
-            {
-                bloquearUsuario(usuario); // Bloqueamos al usuario después de 3 intentos fallidos
-                return "Cuenta bloqueada por intentos fallidos";
-            }
-
-            // Verificar las credenciales de login
+            // Si el usuario está activo, verificar las credenciales de login
             String idUsuario = loginWS.login(usuario, password);
 
             if (idUsuario == "Error")
             {
                 // Incrementar intentos si las credenciales no son válidas
                 intentos++;
-                loginDB.actualizarIntento(usuario, intentos.ToString()); // Guardamos los intentos en la base de datos
-
+                // Manejar intentos fallidos con if-else
                 if (intentos < 3)
                 {
                     return "Error"; // Si no alcanzamos el límite, retornamos "Error"
                 }
                 else
                 {
-                    // Si llega al tercer intento fallido, consideramos la cuenta bloqueada
-                    bloquearUsuario(usuario); // Llamamos al método que bloquea al usuario
-                    return "Cuenta bloqueada por intentos fallidos";
+                    // Si se llega al tercer intento fallido, consideramos la cuenta bloqueada
+                    return "Cuenta bloqueada por intentos fallidos"; // Bloqueamos la cuenta lógicamente
                 }
             }
-
-            // Si el login es exitoso, reiniciamos los intentos
-            loginDB.actualizarIntento(usuario, "0");
 
             // Obtener el perfil del usuario logueado
             int perfilUsuarioLogueado = usuarioActivo.Host;
@@ -103,9 +69,13 @@ namespace Negocio
                 perfilLogin = "Vendedor";
             }
 
+            // Reiniciar los intentos si el login es exitoso
+            intentos = 0;
+
             // Retornar el perfil y el nombre del usuario
             return perfilLogin + " " + nombre;
         }
+
     }
 }
 
